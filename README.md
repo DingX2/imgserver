@@ -1,1 +1,1 @@
-# imgserver
+# server
