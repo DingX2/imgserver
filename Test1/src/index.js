@@ -32,8 +32,8 @@ app.post('/', (req, res) => {
     res.json(req.body);
 });
 
-app.use('/users', require('../src/routes/users'));
-app.use('/products', require('../src/routes/products'));
+app.use('/users', require('./routes/users'));
+app.use('/products', require('./routes/products'));
 // app.use('/products', require('./routes/products'));
 
 app.use((error, req, res, next) => {
